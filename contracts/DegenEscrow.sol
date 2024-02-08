@@ -64,7 +64,7 @@ contract DegenEscrow is Ownable {
     event oracleUpdate(uint8 indexed nflChamp);
 
     constructor(
-        address collateralToken //  = 0xd8b934580fcE35a11B58C6D73aDeE468a2833fa8
+        address collateralToken //  = 0x4ed4E862860beD51a9570b96d89aF5E1B0Efefed  0xd8b934580fcE35a11B58C6D73aDeE468a2833fa8
     ) Ownable(msg.sender) {
         bettingOpen = true;
         betNumber = 0;
